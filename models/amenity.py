@@ -1,10 +1,17 @@
 #!/usr/bin/python3
-"""
-Defines amenities
+"""The `amenity` module
+
+It defines one class, `Amenity(),
+which sub-classes the `BaseModel()` class.`
 """
 from models.base_model import BaseModel
 
 
 class Amenity(BaseModel):
-    """Defines amenities that user can choose from to offer at its place"""
+    """An amenity provided by a place/house.
+
+    Attributes:
+        name
+    """
+
     name = ""
