@@ -1,4 +1,10 @@
+/*
+ * === Header style ===
+ */
+
+/* Header style */
 header {
-	height: 70px;
-	background-color: red;
+  background-color: #f00;
+  height: 70px;
+  width: 100%;
 }
